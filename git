@@ -1,0 +1,16 @@
+# Navigate to your project directory
+C:\Users\Asus\Desktop\IMS456(ELEK A)-NUR HAZIRAH BT MOHAMMAD FAUZI
+# Install and configure Git
+git --version
+git config --global user.name "NurHazirah"
+git config --global user.email "nurhazirahfauzi16@gmail.com"
+
+# Initialize repository
+git init
+git add .
+git commit -m "Initial commit"
+
+# Add remote repository and push changes
+git remote add origin https://zira22.github.io/NurHazirahE-resume/
+git branch -M main
+git push -u origin main
